@@ -13,7 +13,7 @@ export default function Short({urls,setUrls}) {
     <>
 
       if(found){
-        window.location.href = found.longurl;
+        window.location.href = found.longurl
       }
       else{
         alert("wrong")
